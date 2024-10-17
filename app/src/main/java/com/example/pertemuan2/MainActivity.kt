@@ -48,6 +48,9 @@ fun Greeting( modifier: Modifier = Modifier) {
             style = TextStyle(fontSize = 35.sp,
                 fontWeight = FontWeight.Bold)
         )
+        Text(text = "Ini adalah halaman login",
+            style = TextStyle(fontSize = 10.sp,)
+        )
     }
 }
 
