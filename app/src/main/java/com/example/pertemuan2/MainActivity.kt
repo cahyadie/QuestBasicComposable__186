@@ -44,9 +44,7 @@ fun Greeting( modifier: Modifier = Modifier) {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-        Text(
-            text = "Hello $name!",
-            modifier = modifier
+        Text(text = "Login",
         )
     }
 }
