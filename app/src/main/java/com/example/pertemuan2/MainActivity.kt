@@ -61,6 +61,11 @@ fun Greeting( modifier: Modifier = Modifier) {
         Text(text = "Muhammad Ilham Cahyadi",
             style = TextStyle(fontSize = 10.sp,),
             )
+
+        Text(text = "20220141086",
+            style = TextStyle(fontSize = 30.sp,
+                fontWeight = FontWeight.Bold)
+        )
     }
 }
 
