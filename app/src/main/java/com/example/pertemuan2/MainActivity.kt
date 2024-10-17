@@ -66,6 +66,8 @@ fun Greeting( modifier: Modifier = Modifier) {
             style = TextStyle(fontSize = 30.sp,
                 fontWeight = FontWeight.Bold)
         )
+
+        Image(painter = painterResource(id = R.drawable.ilham), contentDescription = null, modifier = Modifier.padding(40.dp).size(400.dp))
     }
 }
 
