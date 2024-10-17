@@ -45,6 +45,8 @@ fun Greeting( modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Text(text = "Login",
+            style = TextStyle(fontSize = 35.sp,
+                fontWeight = FontWeight.Bold)
         )
     }
 }
