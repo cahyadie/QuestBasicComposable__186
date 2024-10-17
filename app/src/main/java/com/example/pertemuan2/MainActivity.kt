@@ -43,6 +43,7 @@ class MainActivity : ComponentActivity() {
 fun Greeting( modifier: Modifier = Modifier) {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
+        modifier = modifier.fillMaxSize()
     ) {
         Text(text = "Login",
             style = TextStyle(fontSize = 35.sp,
