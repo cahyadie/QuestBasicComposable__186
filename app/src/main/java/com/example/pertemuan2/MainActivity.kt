@@ -57,6 +57,7 @@ fun Greeting( modifier: Modifier = Modifier) {
 
         Text(text = "Nama",
             style = TextStyle(fontSize = 20.sp,),
+            modifier = Modifier.padding(top = 16.dp)
         )
 
         Text(text = "Muhammad Ilham Cahyadi",
