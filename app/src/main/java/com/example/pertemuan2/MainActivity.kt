@@ -58,6 +58,9 @@ fun Greeting( modifier: Modifier = Modifier) {
             style = TextStyle(fontSize = 20.sp,),
         )
 
+        Text(text = "Muhammad Ilham Cahyadi",
+            style = TextStyle(fontSize = 10.sp,),
+            )
     }
 }
 
