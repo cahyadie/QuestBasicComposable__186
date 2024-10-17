@@ -51,6 +51,8 @@ fun Greeting( modifier: Modifier = Modifier) {
         Text(text = "Ini adalah halaman login",
             style = TextStyle(fontSize = 10.sp,)
         )
+
+        Image(painter = painterResource(id = R.drawable.logo), contentDescription = null, modifier = Modifier.padding(40.dp).size(200.dp))
     }
 }
 
