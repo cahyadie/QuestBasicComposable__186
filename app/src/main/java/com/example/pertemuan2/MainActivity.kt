@@ -53,6 +53,11 @@ fun Greeting( modifier: Modifier = Modifier) {
         )
 
         Image(painter = painterResource(id = R.drawable.logo), contentDescription = null, modifier = Modifier.padding(40.dp).size(200.dp))
+
+        Text(text = "Nama",
+            style = TextStyle(fontSize = 20.sp,),
+        )
+
     }
 }
 
