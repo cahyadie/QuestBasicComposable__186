@@ -41,15 +41,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting( modifier: Modifier = Modifier) {
-Column(
-    horizontalAlignment = Alignment.CenterHorizontally,
-    modifier = modifier.fillMaxSize()
-){
     Text(
         text = "Hello $name!",
         modifier = modifier
     )
-    }
 }
 
 @Preview(showBackground = true)
